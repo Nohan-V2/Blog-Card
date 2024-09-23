@@ -84,6 +84,11 @@ main:hover {
     height: 32px;
     margin-bottom: -12px;
     margin-top: 24px;
+    transition: all ease 0.2s;
+}
+
+.footer img:hover {
+    transform: scale(1.2);
 }
 
 .footer p {
