@@ -1,0 +1,92 @@
+@import url(normalize.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Figtree", sans-serif;
+    font-weight: 600;
+    color: var(--black);
+    font-size: 14px;
+}
+
+:root {
+    --yellow: #F4D04E;
+    --white: #FFFFFF;
+    --black: #111111;
+    --shadow: #000000;
+    --grey: #7F7F7F;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--yellow);
+}
+
+main {
+    padding: 24px;
+    border: #111111 solid 1px;
+    width: 384px;
+    background-color: var(--white);
+    border-radius: 20px;
+    box-shadow: 8px 8px 0 var(--black);
+    transition: all ease 0.2s;
+}
+
+main:hover {
+    box-shadow: 16px 16px 0 0 var(--black);
+}
+
+.first-image {
+    border-radius: 12px;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.base p,
+.base a {
+    margin-bottom: 12px;
+}
+
+.base a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 900;
+    transition: all ease 0.2s;
+}
+
+.base a:hover {
+    color: var(--yellow);
+}
+
+.Learning {
+    background-color: var(--yellow);
+    padding: 8px 12px;
+    border-radius: 4px;
+    width: 82px;
+    font-weight: 900;
+}
+
+.p-grey {
+    font-size: 16px;
+    color: var(--grey);
+    line-height: 24px;
+}
+
+.footer img {
+    margin-right: 12px;
+    width: 32px;
+    height: 32px;
+    margin-bottom: -12px;
+    margin-top: 24px;
+}
+
+.footer p {
+    display: inline;
+    font-weight: 900;
+}
