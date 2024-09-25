@@ -87,11 +87,15 @@ main:hover {
     transition: all ease 0.2s;
 }
 
-.footer img:hover {
+.footer:hover img {
     transform: scale(1.2);
 }
 
 .footer p {
     display: inline;
     font-weight: 900;
+}
+
+.footer a {
+    text-decoration: none;
 }
